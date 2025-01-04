@@ -1,0 +1,53 @@
+
+.container {
+    width: 500px;
+    max-width: 500px;
+    background-color: hsl(210, 18%, 93%);
+    padding: 10px 7px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+.container:hover{
+    animation: pop .15s ease-in-out 1 forwards;
+}
+
+@keyframes pop {
+    0% {
+        transform: scale(1);
+    }
+
+    70% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1.03);
+    }
+    
+}
+
+.img {
+    width: clamp(40px, 40px, 40px);
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
+
+.text {
+    font-size: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.arrow {
+    width: clamp(30px, 30px, 30px);
+    margin-left: 10px;
+}

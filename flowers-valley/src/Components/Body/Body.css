@@ -1,0 +1,30 @@
+.Body-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: start;
+    margin: 50px;
+}
+
+.Body-text {
+    margin-top: 15px;
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+.Body-img {
+    max-width: 100px;
+    border-radius: 100%;
+}
+
+.Body-socials {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+}
+
+.Body-links {
+    text-decoration: none;
+    color: black;
+}
