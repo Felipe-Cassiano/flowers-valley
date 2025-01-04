@@ -7,8 +7,6 @@ function Links(props) {
 
 
     return(
-        <section>
-
             <a href={props.href} className="container" target="_blank">
 
                 <img className="img" src={props.img} alt="Image" />
@@ -18,8 +16,6 @@ function Links(props) {
                 <div className="arrow"><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></div>
 
             </a>
-
-        </section>
     )
 }
 
